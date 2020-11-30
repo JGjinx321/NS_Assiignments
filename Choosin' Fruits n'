@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>This is all me</title>
+	<link href="C:\Users\Jeret Sanchez\Documents\Websites\Choosin'Fruits n'\Choosin'Fruits n'.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div>
+ 	<img src="NewWebImages/Fruit Home page.jpg" style="width:100%" alt="Variety of fruit" width="100" height="400">
+</div>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+</div>
+<h1>
+ 
