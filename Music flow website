@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="newstyles.css" type="text/css" rel="stylesheet">
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body> 
+
+<div id="Home" class="jumbotron text-center" style="margin-bottom:0">
+  <h1>SouND</h1>
+  <img class="w3-animate-fading" src="Pictures/SoundsOfLife.jpg" style="width:100%" alt="Music Eternity">
+  <p>The Flow</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#Hip-Hop">History-of-Hip-Hop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Rock">History-of-Rock</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Jazz">History-of-Jazz</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <img src="images/ProfilePic.jpg">
+      <p>I don't have a very astounding background in music. You could just consider me a consumer. Not a connoissuer or extraordinaire. But I've always had a passion for the sounds and decent appreciation for what the surrealness of music does to people.
+      <h3>Some Links</h3>
+      <p>Histories of Music</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://www.britannica.com/art/hip-hop"> Hip-Hop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://www.history-of-rock.com/">Rock</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="http://teacher.scholastic.com/activities/bhistory/history_of_jazz.htm">Jazz</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2 class="w3-container w3-center w3-animate-top"> HTML Testing</h2>
+      <h3>Grade, June 19, 2019</h3>
+      <div>
+        <img src="images/W3_Schools1.jpg">
+      </div>
+      <h4>EXTRA</h4>
+      <p>This my web page. I don't feel like talking about it but it's gotta be here so, I GUESS, here.</p>
+      <br>
+      <h2 class="w3-container w3-center w3-animate-top">CSS Testing</h2>
+      <h5>Grade, June 19, 2019</h5>
+      <div>
+        <img src="images/W3_Schools.jpg">
+      </div>
+      <h4>MORE EXTRA</h4>
+      <div class="w3-container w3-center w3-animate-opacity">
+  <img src="images/Spongebob.jpg" alt="Spongebob" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0" style="clear: both">
+  <div> <h1>The Quality of Sound in Music Variations<h1>
+</div>
+    <h2> The BUZZ <h2>
+      <h3 id="Hip-Hop"> Hip-Hop</h3>
+      <p> Hip-Hop is something that seems just a little more familiar to me. I've listened to it all my life. From the days of JA RUE, DMX, and Xzibit all the way to Lil Uzi, Lil Mosey, and Juice World. The history and flow of Hip-Hop is always changing. It only takes one influential rapper to change the whole game and all the old sounds you know for your favorite songs become old. One example of this if Young Thug with his introduction to the rap game he set of a massive chain of changes within the industry's sound.
+
+      <h3 id="Rock"> Rock</h3>
+      <p> Rock is a bit hectic from time to time. It has a flow that requires multiple varying instruments to coalesce into one beautiful harmony. Some reasons why include the bass guitar being paired with an electric keyboard. </p>
+
+      <h3 id="Jazz">Jazz</h3>
+      <p> Jazz was always something that wasn't too big for me but I could always appreciate the sounds. I think the version I listen to is Smooth Jazz. Thankfully for my grandmother introducing me to such a variation it stuck with me. The way the sounds just slightly leave a constant bass or drum vibration verberating throughout your body is amazing.
+<center><button><a href="#Home">Top</a></button></center>
+</div>
+
+</body>
+</html>
